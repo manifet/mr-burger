@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy" : "gulp deploy",
     "build": "cross-env NODE_ENV=prod gulp",
     "dev": "cross-env NODE_ENV=dev gulp"
   },
