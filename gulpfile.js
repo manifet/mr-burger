@@ -62,18 +62,18 @@ task('styles', () => {
 });
 
 task("server", () => {
-        browserSync.init({
-            server: {
-                baseDir: `./dist`
-            },
-        });
+    browserSync.init({
+        server: {
+            baseDir: `./dist`
+        },
+    });
 });
 task("watch", () => {
-        watch('src/images/**', series("copy:images")).on("change", reload);
-        watch('src/fonts/**', series("copy:fonts")).on("change", reload);
-        watch('src/js/**/*.js', series("scripts")).on("change", reload);
-        watch('src/index.html', series("copy:html")).on("change", reload);
-        watch('src/scss/**/*.scss', series("styles")).on("change", reload);
+    watch('src/images/**', series("copy:images")).on("change", reload);
+    watch('src/fonts/**', series("copy:fonts")).on("change", reload);
+    watch('src/js/**/*.js', series("scripts")).on("change", reload);
+    watch('src/index.html', series("copy:html")).on("change", reload);
+    watch('src/scss/**/*.scss', series("styles")).on("change", reload);
 });
 task(
     "default",
