@@ -12,6 +12,7 @@ sass.compiler = require('node-sass');
 const reload = browserSync.reload;
 const rm = require("gulp-rm");
 const env = process.env.NODE_ENV;
+var ghPages = require('gulp-gh-pages');
 
 task("clean", () => {
     return src('./dist/**/*', {read: false}).pipe(rm());
@@ -83,3 +84,8 @@ task(
         parallel("watch", "server")
     )
 );
+
+task('deploy', function() {
+    return src('./dist/**/*')
+        .pipe(ghPages());
+});
