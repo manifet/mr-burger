@@ -1,36 +1,38 @@
 {
-  "name": "project",
+  "name": "mr-burger",
   "version": "1.0.0",
-  "description": "https://manifetko.github.io/dist/\r --------------------------------------------\r for scss complier\r {\r     \"liveSassCompile.settings\": {\r         \"generateMap\": false,\r         \"includeItems\": [\r             \"./src/scss/main.scss\"\r         ],\r         \"formats\":[\r             {\r                 \"format\": \"expanded\",\r                 \"extensionName\": \".css\",\r                 \"savePath\": \"/dist\"\r             }\r         ]\r     }\r }\r --------------------------------------------",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "gulp": "gulp"
+    "build": "cross-env NODE_ENV=prod gulp",
+    "dev": "cross-env NODE_ENV=dev gulp"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manifetko/burger.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/manifetko/burger/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manifetko/mr-burger.git"
   },
-  "homepage": "https://github.com/manifetko/burger#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "gulp-rm": "^2.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.51.0",
+    "browser-sync": "^2.27.9",
+    "cross-env": "^7.0.3",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-group-css-media-queries": "^1.2.2",
-    "gulp-rm": "^2.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.2",
-    "node-sass": "^4.13.1"
-  },
-  "dependencies": {
-    "jquery": "^3.4.1",
-    "jquery-touchswipe": "^1.6.19"
+    "gulp-if": "^3.0.0",
+    "jquery": "^3.6.0",
+    "jquery-touchswipe": "^1.6.19",
+    "node-sass": "^7.0.1"
   }
 }
