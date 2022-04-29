@@ -26,7 +26,7 @@ npm install
 
 ## Deployment
 
-Dev and build differ in the presence of a development server and sourcesmaps
+Dev and build differ in costly operations such as code minification, autoprefixer for css, bable, etc. (see gulpfile.js)
 
 ```
 npm run dev
