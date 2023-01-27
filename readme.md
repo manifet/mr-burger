@@ -1,7 +1,7 @@
 # Mr.Burger
 
 Mr.Burger is a graduate project creating a burger shop website using HTML, CSS and JavaScript technologies.
-### Preview
+## Preview
 You can see the finished project [here](https://manifet.github.io/mr-burger/)
 
 ![Welcome section](https://user-images.githubusercontent.com/61707913/215112915-f695cc8c-fe8b-4eb1-8292-5e72e270f602.png)
@@ -12,18 +12,18 @@ You can see the finished project [here](https://manifet.github.io/mr-burger/)
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Installing
+### Installing
 
 A step by step series of examples that tell you how to get a development env running (assumes node.js and npm already installed).
 
-### Сlone repository from github
+#### Сlone repository from github
 
 ```
 git clone https://github.com/manifet/mr-burger.git
 cd mr-burger
 ```
 
-### Install dependencies
+#### Install dependencies
 
 ```
 npm install
@@ -36,7 +36,7 @@ npm run dev
 npm run build
 ```
 
-## Deployment
+### Deployment
 
 Deploy to Github Pages. Uses the npm plugin `gh-pages`
 
@@ -44,6 +44,6 @@ Deploy to Github Pages. Uses the npm plugin `gh-pages`
 npm run deploy
 ```
 
-You can ask me a question [here](https://github.com/manifet/mr-burger/issues)
+## You can ask me a question [here](https://github.com/manifet/mr-burger/issues)
 
 
