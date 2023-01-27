@@ -1,9 +1,12 @@
-# Alearn
+# Mr.Burger
 
-Alearn is a student project that creates a self-study platform website using HTML (Pug), CSS (Sass) and JavaScript technologies.
+Mr.Burger is a graduate project creating a burger shop website using HTML, CSS and JavaScript technologies.
 ### Preview
-You can see the finished project [here](https://manifet.github.io/alearn/)
-![Screenshot of website](https://user-images.githubusercontent.com/61707913/215111356-925364ea-8167-436f-9e20-36737a16180d.png)
+You can see the finished project [here](https://manifet.github.io/mr-burger/)
+
+![Welcome section](https://user-images.githubusercontent.com/61707913/215112915-f695cc8c-fe8b-4eb1-8292-5e72e270f602.png)
+![Slider section](https://user-images.githubusercontent.com/61707913/215112919-738de0b4-0d51-45db-800e-3798a77845b7.png)
+![Form section](https://user-images.githubusercontent.com/61707913/215112908-8aca2f18-7f1d-4f8e-ae71-caf845eaee07.png)
 
 ## Getting Started
 
@@ -41,6 +44,6 @@ Deploy to Github Pages. Uses the npm plugin `gh-pages`
 npm run deploy
 ```
 
-You can ask me a question [here](https://github.com/manifet/alearn/issues)
+You can ask me a question [here](https://github.com/manifet/mr-burger/issues)
 
 
