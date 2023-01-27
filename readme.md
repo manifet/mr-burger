@@ -36,7 +36,7 @@ npm run dev
 npm run build
 ```
 
-### Deployment
+## Deployment
 
 Deploy to Github Pages. Uses the npm plugin `gh-pages`
 
